@@ -1,8 +1,6 @@
-package crypto;
 
 // # 추상 클래스 : 클래스 내부에 추상 메서드를 지닌 클래스
-public abstract class Cipher { // cipher를 상속받을때 encryption, decryption 보장해준다
-	
+
 	/*
 	 # 추상 메서드
 	 - 함수의 형태만 정해놓고 자식 클래스에서 오버라이드를 구현하게 만든다
@@ -13,8 +11,23 @@ public abstract class Cipher { // cipher를 상속받을때 encryption, decryption 보�
 
 	// 자식 클래스들의 형태를 미리 결정
 	// 자식 클래스들이 메서드를 오버라이드 하여 사용하게 만든다
-	abstract public String encryption(String plain);
+
+abstract public class C06_abstract {
+	public static void main(String[] args) {
+		// Test
+	}
 	
-	abstract public String decryption(String crypto);
+	//abstract 클래스와 그것을 상속받는 클래스를 설계해보세요
+	// (추상 메서드가 반드시 존재해야 함)
+
 	
 }
+
+
+
+
+
+
+
+
+
