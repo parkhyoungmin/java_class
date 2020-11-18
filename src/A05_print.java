@@ -13,7 +13,7 @@ public class A05_print {
 		
 		// 2. println()
 		// - 줄을 자동으로 바꾸며 출력하는 함수
-		// - ()에 전달한 데이터 맨 뒤에 '\n'을 추가하여 출력한다
+		// - ()에 전달한 데이터 맨 뒤에 '\n'을 추가하여 출력한다  
 		// - ()에 아무것도 전달하지 않으면 '\n'만 출력한다
 		System.out.println("Print, World!");
 		System.out.println("");
