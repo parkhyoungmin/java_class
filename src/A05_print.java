@@ -17,7 +17,7 @@ public class A05_print {
 		// - ()에 아무것도 전달하지 않으면 '\n'만 출력한다
 		System.out.println("Print, World!");
 		System.out.println("");
-		System.out.println("Hello, World!");
+		System.out.println("Hello, World!"); 
 		
 		// 3. printf()
 		// - 서식 문자를 이용해 출력할 수 있는 함수
