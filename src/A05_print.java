@@ -2,7 +2,7 @@
 public class A05_print {
 
 	public static void main(String[] args) {
-		
+		 
 		// # 콘솔에 출력하기 위한 여러가지 함수들
 		
 		// 1. print()
