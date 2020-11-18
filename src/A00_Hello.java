@@ -73,7 +73,7 @@ public class A00_Hello {
 		
 		// 3. 소수 : 실수 (Double, Float)
 		System.out.println(123.1234567); // 안붙이면 double
-		System.out.println(123.123456f); // f를 붙이면 float
+		System.out.println(124.123456f); // f를 붙이면 float
 		
 		// 4. ''사이에 적는 것 : 문자 (Character), 문자 단 하나
 		// ※ 작은 따옴표에는 문자를 여러 개 넣으면 에러가 발생한다
