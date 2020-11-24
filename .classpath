@@ -7,5 +7,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/10월 자바 sw개발자 양성과정 박형민/SQL/sqldeveloper-19.2.1.247.2212-no-jre/sqldeveloper/jdbc/lib/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="D:/10월 자바 sw개발자 양성과정 박형민/JAVA/HikariCP-3.4.5.jar"/>
+	<classpathentry kind="lib" path="D:/10월 자바 sw개발자 양성과정 박형민/JAVA/slf4j-api-1.7.30.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
