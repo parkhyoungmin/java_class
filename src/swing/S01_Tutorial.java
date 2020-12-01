@@ -41,13 +41,19 @@ public class S01_Tutorial {
 		JFrame frame = new JFrame("제목!");
 //		JButton b = new JButton("CLICK!");
 		
-		JButton b = new KakaoButton(KakaoBtnEnum.CAMERA);
+		JButton b = new KakaoButton(KakaoBtnEnum.CAMERA, 80);
 		
 		b.setLocation(100, 100);
-		b.setSize(100, 50);
+		
+		/*
+		 JButton에는 setsize(int, int)밖에 없어서
+		 JButton을 상속받은 자식 클래스에서 setSize(int)를 추가하더라고
+		 업캐스팅해서 사용하면 쓸수없게 된다
+		 b.setSize(150);
+		 */
 //		b.setBounds(100, 100, 200, 150);
 		
-		frame.add(b, BorderLayout.EAST);
+		frame.add(b);
 		
 		// frame에 기본적으로 설정되어있던 레이아웃을 제거한다
 		frame.setLayout(null);
@@ -56,7 +62,7 @@ public class S01_Tutorial {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		// 프레임크기 설정
-		frame.setSize(500, 1000);
+		frame.setSize(500, 500);
 		
 		// 프레임을 보이게 설정 (회면에 그린다)
 		// ※ GUI환경에서는 화면에 변화가 적용되지 않을 때는 화면을 다시 그려야 한다.

@@ -26,7 +26,7 @@ public class KakaoButton extends JButton {
                 
                 try {
                     source = ImageIO.read(
-                                    new File("D:\\자바SW개발자 양성과정 10월 권혁준\\assets\\image\\kakao1.png")
+                                    new File("D:\\10월 자바 sw개발자 양성과정 박형민\\1.png")
                     );
                     
                     SOURCE_IMAGE_WIDTH = source.getWidth() / SOURCE_IMAGE_COLS;
