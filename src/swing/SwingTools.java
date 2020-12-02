@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 
 public class SwingTools {
 
-	static void initTestFrame(JFrame frame) {
+	public static void initTestFrame(JFrame frame) {
 		frame.setLayout(null);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocation(1000, 100);
