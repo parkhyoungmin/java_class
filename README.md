@@ -1,9 +1,6 @@
 # 프로젝트소개
 저희 조는 Github를 통한 협업으로 자바프로그램, DB, GUI를 활용해 편의점프로그램을 만들어보았습니다.
 
-### 다이어 그램
-![](https://github.com/parkhyoungmin/java_class/blob/main/images/diagram.jpg)
-
 # 목차
 - [기능소개](#기능소개)
   - [1.상품등록](#1상품등록)
